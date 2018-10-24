@@ -1,6 +1,7 @@
 Cell[][] board = new Cell[8][8];
 int w = 80;//size of each cell on the board;
 int colour;
+int turn = 1;
 PImage pawn1,rook1,knight1,bishop1,queen1,king1,pawn2,rook2,knight2,bishop2,queen2,king2;
 void setup()
 {

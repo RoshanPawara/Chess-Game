@@ -2,6 +2,7 @@ class Piece
 {
   boolean king = false, queen = false, rook = false, bishop = false, knight = false, pawn = false;
   int team = 0;
+  boolean moved = false;
   void show(float x, float y)
   {
     //Replace with images
@@ -36,4 +37,8 @@ class Piece
     }
   }
   
+  void showmoves()
+  {
+    
+  }
 }
